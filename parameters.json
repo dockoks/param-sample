@@ -1,24 +1,24 @@
 {
-  type: "object",
-  properties: {
-    phoneNumber: {
-      type: "string",
-      description: "User's phone number"
+  "type": "object",
+  "properties": {
+    "phoneNumber": {
+      "type": "string",
+      "description": "User's phone number"
     },
-    age: {
-      type: "integer",
-      description: "User's age",
-      minimum: 18
+    "age": {
+      "type": "integer",
+      "description": "User's age",
+      "minimum": 18
     },
-    name: {
-      type: "string",
-      description: "User's name"
+    "name": {
+      "type": "string",
+      "description": "User's name"
     },
-    surname: {
-      type: "string",
-      description: "User's surname"
-    },
+    "surname": {
+      "type": "string",
+      "description": "User's surname"
+    }
   },
-  required: ["name", "surname", "phoneNumber", "age"],
-  additionalProperties: false
+  "required": ["name", "surname", "phoneNumber", "age"],
+  "additionalProperties": false
 }
