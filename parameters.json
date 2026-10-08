@@ -3,20 +3,21 @@
   "properties": {
     "phoneNumber": {
       "type": "string",
-      "description": "User's phone number"
+      "description": "User's phone number, must contain only '+' and digits"
     },
     "age": {
       "type": "integer",
       "description": "User's age",
-      "minimum": 18
+      "minimum": 18,
+      "maximum": 100
     },
     "name": {
       "type": "string",
-      "description": "User's name"
+      "description": "User's name, must consist of only alpabet characters"
     },
     "surname": {
       "type": "string",
-      "description": "User's surname"
+      "description": "User's surname, must consist of only alpabet characters"
     }
   },
   "required": ["name", "surname", "phoneNumber", "age"],
